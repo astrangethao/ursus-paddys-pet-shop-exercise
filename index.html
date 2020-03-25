@@ -42,13 +42,13 @@
                       type="text"
                       placeholder="Enter Creature's Name"
                       name="name"
-                      class="form-control"
+                      class="form-control js-input-name"
                     />
                   </div>
 
                   <div class="form-group col-6">
                     <label for="type">Type:</label>
-                    <select name="type" class="form-control">
+                    <select name="type" class="form-control js-input-type">
                       <option value="">Select a Creature Type</option>
                       <option value="domestic">Domestic</option>
                       <option value="wild">Wild</option>
@@ -62,18 +62,22 @@
                     <input
                       type="number"
                       placeholder="How much is the creature?"
-                      name="name"
-                      class="form-control"
+                      name="price"
+                      class="form-control js-input-price"
                     />
                   </div>
 
                   <div class="form-group col-12">
                     <label>Any Additional Notes:</label>
-                    <textarea type="text" name="name" class="form-control">
+                    <textarea
+                      type="text"
+                      name="notes"
+                      class="form-control js-input-notes"
+                    >
                     </textarea>
                   </div>
 
-                  <button class="btn btn-primary btn-block">
+                  <button class="btn btn-primary btn-block js-btn-add-pet">
                     Add Creature
                   </button>
                 </div>
@@ -85,13 +89,15 @@
 
               <h3 class="mb-3">Available Pets</h3>
 
-              <div class="row mx-n2">
+              <div class="row mx-n2 js-pet-card-list">
                 <!-- START: Repeatable Pet Card -->
                 <div class="col-4 mb-3 px-2">
                   <div class="card">
                     <h5 class="card-header">$0.00</h5>
                     <div class="card-body">
-                      <h5 class="card-title">Name of Creature</h5>
+                      <h5 class="card-title">
+                        Name of Creature
+                      </h5>
                       <h6 class="card-subtitle mb-2 text-muted">
                         Creature Type
                       </h6>
@@ -108,7 +114,9 @@
                   <div class="card">
                     <h5 class="card-header">$0.00</h5>
                     <div class="card-body">
-                      <h5 class="card-title">Name of Creature</h5>
+                      <h5 class="card-title">
+                        Name of Creature
+                      </h5>
                       <h6 class="card-subtitle mb-2 text-muted">
                         Creature Type
                       </h6>
@@ -124,7 +132,9 @@
                   <div class="card">
                     <h5 class="card-header">$0.00</h5>
                     <div class="card-body">
-                      <h5 class="card-title">Name of Creature</h5>
+                      <h5 class="card-title">
+                        Name of Creature
+                      </h5>
                       <h6 class="card-subtitle mb-2 text-muted">
                         Creature Type
                       </h6>
@@ -140,7 +150,9 @@
                   <div class="card">
                     <h5 class="card-header">$0.00</h5>
                     <div class="card-body">
-                      <h5 class="card-title">Name of Creature</h5>
+                      <h5 class="card-title">
+                        Name of Creature
+                      </h5>
                       <h6 class="card-subtitle mb-2 text-muted">
                         Creature Type
                       </h6>
@@ -156,7 +168,9 @@
                   <div class="card">
                     <h5 class="card-header">$0.00</h5>
                     <div class="card-body">
-                      <h5 class="card-title">Name of Creature</h5>
+                      <h5 class="card-title">
+                        Name of Creature
+                      </h5>
                       <h6 class="card-subtitle mb-2 text-muted">
                         Creature Type
                       </h6>
